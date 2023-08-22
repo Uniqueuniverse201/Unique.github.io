@@ -3,6 +3,7 @@
 }
 .tc-1{
     display: flex;
+    text-align: center;
 }
 .sidebar-1{
     background-color: rgb(242, 202, 21);
