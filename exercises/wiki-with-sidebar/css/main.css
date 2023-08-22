@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.tc-1{
+    display: flex;
+}
+.sidebar-1{
+    background-color: rgb(242, 202, 21);
+    width: 250px;
+    padding: 24px;
+}
+.main-content{
+    background-color: rgba(0, 0, 255, 0.914)
+}
+hr {
+    background-color: red;
+}
