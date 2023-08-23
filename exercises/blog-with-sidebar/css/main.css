@@ -29,3 +29,6 @@
     background: radial-gradient(black, red);
     grid-area: content;
 }
+p{
+    padding: 5px;
+}
