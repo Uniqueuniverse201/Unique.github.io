@@ -7,9 +7,13 @@
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-areas: ". content sidebar .";
 }
+body{
+    background: radial-gradient(black, red);
+}
 #sidebar{
     grid-area: sidebar;
     padding: 18px;
+    position: sticky;
 }
 #sidebar h2{
     background-color: rgb(255, 235, 13);
@@ -31,4 +35,7 @@
 }
 p{
     padding: 5px;
+}
+img {
+    width: 550px;
 }
