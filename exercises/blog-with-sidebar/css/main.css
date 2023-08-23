@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+}
+#grid-layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: ". content sidebar .";
+}
+#sidebar{
+    grid-area: sidebar;
+    padding: 18px;
+}
+#sidebar h2{
+    background-color: rgb(255, 235, 13);
+    padding: 8px;
+    color: rgb(87, 28, 0);
+    font-size: 18px;
+    border: 1px solid black;
+}
+#sidebar ul{
+    background-color: rgb(136, 136, 136);
+    border: 1px solid black;
+    margin: 0 0 36px;
+    list-style-type: none;
+}
+#main-content{
+    color:white;
+    background: radial-gradient(black, red);
+    grid-area: content;
+}
