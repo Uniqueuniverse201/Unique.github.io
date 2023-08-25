@@ -1,0 +1,73 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+*{
+    box-sizing: border-box;
+}
+.card-style-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 15px solid rgb(231, 208, 1);
+    border-radius: 25px;
+    padding: 12px;
+    margin: 12px;
+    width: 350px;
+}
+img{
+    object-fit: cover;
+    border: 5px solid rgb(231, 208, 1); 
+    width: 285px;
+}
+.details{
+    background: linear-gradient(-50deg, rgb(230, 218, 2), rgb(255, 196, 0) );
+    font-size: 12px;
+    margin: 8px;
+}
+.bold{
+    font-weight: bold;
+}
+.description{
+    font-size: 15px;
+    margin-bottom: 8px;
+    align-items: right;
+    border-bottom: 1px solid black;
+}
+.attack{
+    display: flex;
+    justify-content: space-between;
+}
+.energy{
+    justify-content: left;
+    display: flex;
+}
+.pokemon-header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 80%;
+}
+.data{
+    border: 1px solid rgb(212, 181, 2);
+    font-size: 10px;
+    text-align: center;
+    padding: 1px;
+}
+#pokemon-card-1{
+    background: linear-gradient(-50deg, green, lime)
+}
+#pokemon-card-2{
+    background: linear-gradient(-50deg, green, lime)
+}
+#pokemon-card-3{
+    background: linear-gradient(-50deg, red, orange)
+}
+#pokemon-card-4{
+    background: linear-gradient(-50deg, blue, turquoise)
+}
