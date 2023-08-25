@@ -83,9 +83,6 @@ body{
 .metube-item:nth-of-type(6) .thumbnail-placeholder{
     background-image: url(../images/dashie-games.png);
 }
-.thumbnail-placeholder a:hover{
-    text-decoration-color: aqua;
-}
 .metube-item h4{
     margin: 8px;
 }
