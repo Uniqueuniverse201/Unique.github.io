@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Tilt Prism';
+
+}
+img {
+    width: 100%;
+    border: 3px solid gray;
+}
+#header{
+    text-align: center;
+    font-family: 'Pacifico';
+    background-color:#1F221C;
+}
+#header h2{
+    color: rgb(212, 212, 212);
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#main {
+    background: linear-gradient(50deg, gray, white);
+    padding: 48px;
+    border-top: 20px solid rgb(217, 215, 215);
+}
+
+/* side by side implementation */
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+.side-by-side .text-container .a-btn {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1F221C;
+    color: #FFFFFF;
+    padding: 24px 48px;
+    border-radius: 48px;
+    transition: color .5s;
+}
+.side-by-side .text-container .a-btn:hover {
+    color: #16B6B3;
+}
+
+/* Three Cards implementation */
+#card-section {
+    background-color: #858585;
+    padding: 48px;
+    color: black;
+    border-top: 20px solid rgb(204, 203, 203);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+.card h3 {
+    font-size: 36px;
+    margin: 0;
+}
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
