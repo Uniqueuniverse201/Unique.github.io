@@ -213,4 +213,71 @@ body{
     padding-right: 5vh;
     margin-right: 5vw;
 }
-
+/* Page 3 */
+*{
+    box-sizing: border-box;
+}
+.spacer-3 {
+    height: 50vh;
+    background-image: url(../images/woman-clothes.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hero-11 {
+    background-image: url(../images/woman-wearing-jacket-2.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-11 h1{
+    font-size: 10vh;
+    padding-right: 10vw;
+    margin-left: 20px;
+}
+#hero-12{
+    background-image: url(../images/wearing-shoes.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: bottom left;
+    display: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-13{
+    background-image: url(../images/man-wearing-jacket.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom left;
+    display: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-14{
+    background-image: url(../images/woman-wearing-hat.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: bottom left;
+    display: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-15{
+    background-image: url(../images/friends-together-clothes.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom right;
+    display: column;
+    justify-content: flex-end;
+    align-items: top right;
+}
+#hero-15 h2, h4{
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+#hero-15 a{
+    text-align: end;
+}
