@@ -142,4 +142,75 @@ body{
     justify-content: flex-start;
     align-items: center;
 }
+#hero-7 h2{
+    color: white;
+    padding-left: 5vh;
+    margin-top: 12vh; 
+    font-size: 4vw;
+}
+#hero-7 h4, a{
+    font-size: 3vw;
+    padding-right: 5vh 8vw;
+    margin-left: 5vh;
+}
+#hero-8{
+    background-image: url(../images/sillyface-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center left;
+    display: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-8 h2{
+    color: white;
+    padding: 5vh 8vw;
+    font-size: 6vw;
+}
+#hero-8 h4, a{
+    font-size: 3vw;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#hero-9{
+    background-image: url(../images/scared-silly-face.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center left;
+    display: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-9 h2{
+    color: white;
+    padding: 5vh 8vw;
+    font-size: 6vw;
+}
+#hero-9 h4, a{
+    font-size: 3vw;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#hero-10{
+    background-image: url(../images/old-man-5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center right;
+    display: column;
+    justify-content: flex-end;
+    align-items: right;
+}
+#hero-10 h2{
+    color: white;
+    padding: 5vh 8vw;
+    font-size: 6vw;
+}
+#hero-10 h4{
+    color: white;
+}
+#hero-10 h4, a{
+    font-size: 3vw;
+    padding-right: 5vh;
+    margin-right: 5vw;
+}
 
