@@ -8,7 +8,7 @@ body{
     background: radial-gradient(blue, aqua);
 }
 #hero1-1{
-    background-image: url(../images/hero-image.jpg);
+    background-image: url(../images/heroimage.jpg);
     height: 50vh;
     background-size: cover;
     background-position: top right;
