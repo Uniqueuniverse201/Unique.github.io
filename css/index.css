@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+#hero-home-1{
+    background-image: url(../images/3ds-diamond.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+.landscape-home-page{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+.landscape-home-page img{
+    width: 100%;
+    height: 100%;
+    padding: 18px;
+    border-radius: 34px;
+}
+#hero-home-1 h1{
+    color: white;
+    font-size: 48px;
+}
