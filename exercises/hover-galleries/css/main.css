@@ -241,7 +241,7 @@ body{
     border-radius: 12px;
     text-align: center;
 }
-.card-3 a {
+.card-detail a {
     text-decoration: none;
     color: black;
     display: block;
@@ -249,15 +249,51 @@ body{
     padding: 12px;
     margin-top: 36px;
 }
-#card1 {
+#gall1 {
+    background-image: url(../images/coffee_L1.jpg);
     transition:
         background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s;
 }
-
-#card1:hover {
-    background-color: lightcyan;
+#gall1:hover{
+    background-color: rgb(146, 244, 244);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#gall2 {
+    background-image: url(../images/coffee_L2.jpg);
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#gall2:hover{
+    background-color: rgb(146, 244, 244);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#gall3 {
+    background-image: url(../images/coffee_L3.jpg);
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#gall3:hover{
+    background-color: rgb(146, 244, 244);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+#gall4 {
+    background-image: url(../images/coffee_L4.jpg);
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#gall4:hover{
+    background-color: rgb(146, 244, 244);
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
