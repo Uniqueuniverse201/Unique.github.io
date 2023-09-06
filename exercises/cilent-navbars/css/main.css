@@ -65,19 +65,9 @@ body{
 #navbar-3 .top-level{
     text-align: center;
 }
-#navbar-3 .container-second-level .container-second-level-text .second-level{
-    background: linear-gradient(to bottom, red, blue);
+#navbar-3 .second-level{
+    background: linear-gradient(to bottom, orange, white, black);
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-#navbar-3 .container-second-level img{
-    width: 200px;
-    border-radius: 24px;
-}
-#navbar-3 .container-second-level .container-second-level-text{
-    position: absolute;
-    bottom: 8px;
-    left: 85px;
-    color: white;
 }
