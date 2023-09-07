@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Navbar */
+#navbar{
+    background: linear-gradient(to top, brown, purple);
+    display: flex;
+    align-items: center;
+}
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar a:hover{
+    background: linear-gradient(to top, brown, purple);
+}
+#navbar #logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+.dropdown-container{
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        opacity 0.25s,
+        visibilty 0.25s;
+}
+.dropdown-container:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-container:last-child .dropdown{
+    right: 0px;
+}
+.dropdown a{
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown a:hover{
+    background-color: darkslateblue;
+}
+/* Main Content */
+#hero{
+    background-image: url(../images/champ.jpg);
+    background-position: center;
+    display: flex;
+    height: 75vh;
+    align-items: center;
+}
+#hero h1{
+    color: white;
+    margin-left: 80px;
+    font-size: 58px;
+}
