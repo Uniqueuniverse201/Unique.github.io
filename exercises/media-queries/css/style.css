@@ -227,8 +227,11 @@ a {
     #content-container .three-cards, .two-cards{
         flex-direction: column;
     }
-    .two-cards a{
+    .two-cards .card a{
         flex-direction: column;
-        justify-content: center;
+        display: flex;
+        margin-left: 275px;
+        margin-right: 275px;
+        align-items: center;
     }
 }
