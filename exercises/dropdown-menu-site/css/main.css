@@ -53,19 +53,19 @@ body{
 #navbar .dropdown a:hover{
     background-color: darkslateblue;
 }
-/* Main Page */
+/* Home Page */
 #main-hero{
     background-image: url(../images/cute-pups.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
     height: 75vh;
-    align-items: center;
+    justify-content: center;
 }
 #main-hero h1{
-    color: white;
+    color: black;
     margin-left: 80px;
-    text-align: top;
+    padding-bottom: 50px;
     font-size: 58px;
 }
 /* Main Content */
