@@ -1,3 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/* Navbar */
+#navbar{
+    background: linear-gradient(to top, brown, purple);
+    display: flex;
+    align-items: center;
+}
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar a:hover{
+    background: linear-gradient(to top, brown, purple);
+}
+#navbar #logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
 .giant-panda-img img {
     width:250px
 }
