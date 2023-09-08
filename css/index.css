@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0px;
+}
+/* Navbar */
 #navbar{
     background: linear-gradient(to top, brown, purple);
     display: flex;
@@ -22,6 +26,7 @@
     padding-top: 13px;
     padding-bottom: 12px;
 }
+/* Home Page */
 #hero-home-1{
     background-image: url(../images/3ds-diamond.jpg);
     height: 50vh;

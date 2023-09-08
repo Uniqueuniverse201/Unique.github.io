@@ -1,6 +1,29 @@
 *{
     box-sizing: border-box;
 }
+/* Navbar */
+#navbar{
+    background: linear-gradient(to top, brown, purple);
+    display: flex;
+    align-items: center;
+}
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar a:hover{
+    background: linear-gradient(to top, brown, purple);
+}
+#navbar #logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+/* Gallery Page */
 body{
     margin: 0px;
 }
@@ -15,6 +38,7 @@ body{
 }
 #gallery-hero-page h1{
     color: white;
+    font-size: 48px;
 }
 .body-text{
     text-align: center;
