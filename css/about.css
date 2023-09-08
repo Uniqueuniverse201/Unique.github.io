@@ -26,6 +26,9 @@ body{
     padding-top: 13px;
     padding-bottom: 12px;
 }
-.giant-panda-img img {
-    width:250px
+#navbar a{
+    font-weight: bold;
+}
+img{
+    height: 250px;
 }

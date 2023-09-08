@@ -23,6 +23,9 @@
     padding-top: 13px;
     padding-bottom: 12px;
 }
+#navbar a{
+    font-weight: bold;
+}
 /* Gallery Page */
 body{
     margin: 0px;
@@ -42,6 +45,9 @@ body{
 }
 .body-text{
     text-align: center;
+}
+.body-text a{
+    text-decoration: none;
 }
 #landscape-layout-1{
     max-width: 800px;

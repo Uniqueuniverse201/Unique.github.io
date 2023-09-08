@@ -26,3 +26,6 @@ body{
     padding-top: 13px;
     padding-bottom: 12px;
 }
+#navbar a{
+    font-weight: bold;
+}
