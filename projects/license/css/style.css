@@ -12,6 +12,7 @@
     border-radius: 24px;
     background: linear-gradient(50deg, yellow, orange);
     padding: 15px;
+    box-shadow: 12px 4px 4px #00000033;
 }
 h1{
     display: block;
@@ -23,6 +24,15 @@ h4{
     background-color: rgb(4, 4, 173);
     color: white;
     display: block;
+    text-align: center;
+}
+img{
+    border-radius: 15px;
+}
+#signature{
+    display: block;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
 }
 /* Left Side */
 #left-side{
@@ -41,18 +51,36 @@ h4{
 }
 #id-and-expiration div{
     display: inline-block;
+    color:rgb(4, 4, 173);
 }
 #id-and-expiration span{
     display: inline-block;
+    font-weight: bold;
+    color: red;
 }
 #address{
     display: block;
+    font-weight: bold;
 }
 #data-fields{
     display: inline-block;
 }
 #data-left, #data-right{
     display:inline-block;
+}
+#data-left span{
+    font-weight: bold;
+    color: red;
+}
+#data-right span{
+    font-weight: bold;
+    color: red;
+}
+#data-left div{
+    color:rgb(4, 4, 173);
+}
+#data-right div{
+    color:rgb(4, 4, 173);
 }
 /* Right Side */
 #right-side img{
@@ -68,9 +96,10 @@ h4{
 }
 #donor{
     color: red;
+    font-weight: bold;
 }
 #real-id{
     color: white;
-    background-color: rgb(213, 213, 22);
+    background-color: rgb(242, 242, 0);
     border-radius: 50px;
 }
