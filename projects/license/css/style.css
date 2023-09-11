@@ -6,43 +6,61 @@
 
     Good luck, and have fun!
 */
-div {
-    width:350px;
-    margin:2px;
-}
 #license{
-    border: 2px solid black;
-    padding:1px;
-    border-radius:20px;
-    width:375px;
-    background-color: orange;
+    display: block;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 550px;
+    background: linear-gradient(50deg, yellow, orange);
 }
 h1{
-    color:darkblue;
+    display: block;
+    color: rgb(7, 7, 170);
 }
-h4 {
-    background-color:darkblue;
-    color:white;
+h4{
+    background-color: rgb(4, 4, 173);
+    color: white;
+    display: block;
 }
-#data-left{
-    text-align:left;
-}
-#data-right{
-    text-align:right;
-}
-span{
-    color:red;
-    font-weight:bold;
+/* Left Side */
+#personal-info{
+    display: block;
+    border: 1px solid red;
 }
 #small-pic{
-    text-align: right;
-}
-img {
-    border-radius:20px;
+    display: block;
+    border: 1px solid orange;
+    margin-top: 12px;
 }
 #id-and-expiration{
-    display:inline-block;
+    display: inline-block;
+    border: 1px solid green;
 }
 #address{
-    font-weight:bold;
+    display: block;
+    border: 1px solid blue;
+    justify-content: space-between;
+}
+#data-fields{
+    display: block;
+}
+#data-left, #data-right{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 48px;
+}
+/* Right Side */
+#right-side{
+    display: block;
+    text-align: right;
+}
+#donor{
+    color: red;
+}
+#real-id{
+    color: white;
+    background-color: rgb(213, 213, 22);
+    border-radius: 50px;
+    margin-left: 525px;
+    align-items: right;
 }
