@@ -45,6 +45,9 @@ h3{
 .landscape-home-page{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "image-home-1 image-home-2 image-home-3"
+    ;    
     padding: 10px;
 }
 .landscape-home-page img{
@@ -53,7 +56,46 @@ h3{
     padding: 18px;
     border-radius: 34px;
 }
+#image-home-1{
+    grid-area: image-home-1;
+}
+#image-home-2{
+    grid-area: image-home-2;
+}
+#image-home-3{
+    grid-area: image-home-3;
+}
 #hero-home-1 h1{
     color: white;
     font-size: 48px;
+}
+/* Media Screen Section Tablet */
+@media screen and (max-width: 1024px) and (min-width:520px ){
+    .landscape-home-page{
+        grid-template-areas: repeat(3, 1fr);
+        grid-template-areas:
+            "image-home-1 image-home-2 image-home-3"
+        ;    
+    }
+    #h1{
+        flex-direction: column;
+        font-size: 32px;
+        align-items: center;
+    }
+}
+/* Media Screen Section Phone */
+@media screen and (max-width: 519px) and (min-width:420px){
+    .landscape-home-page{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "image-home-1"
+            "image-home-2"
+            "image-home-3"
+        ;    
+    }
+    h1{
+        flex-direction: column;
+        font-size: 24px;
+        align-items: center;
+    }
 }

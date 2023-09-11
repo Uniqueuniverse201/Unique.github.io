@@ -10,12 +10,14 @@
     display: block;
     border: 1px solid black;
     border-radius: 24px;
-    width: 550px;
     background: linear-gradient(50deg, yellow, orange);
+    padding: 15px;
 }
 h1{
     display: block;
     color: rgb(7, 7, 170);
+    margin: 0px;
+
 }
 h4{
     background-color: rgb(4, 4, 173);
@@ -23,36 +25,46 @@ h4{
     display: block;
 }
 /* Left Side */
+#left-side{
+    display: inline-block;
+    width: 65%;
+}
+#left-side img{
+    width: 100%;
+}
 #personal-info{
-    display: block;
-    border: 1px solid red;
+    display: inline-block;
 }
 #small-pic{
-    display: block;
-    border: 1px solid orange;
-    margin-top: 12px;
-}
-#id-and-expiration{
     display: inline-block;
-    border: 1px solid green;
+    width: 90px;
+}
+#id-and-expiration div{
+    display: inline-block;
+}
+#id-and-expiration span{
+    display: inline-block;
 }
 #address{
     display: block;
-    border: 1px solid blue;
-    justify-content: space-between;
 }
 #data-fields{
-    display: block;
+    display: inline-block;
 }
 #data-left, #data-right{
     display:inline-block;
-    justify-content: space-between;
-    margin-right: 48px;
 }
 /* Right Side */
+#right-side img{
+    width: 100%;
+}
 #right-side{
-    display: block;
+    display: inline-block;
     text-align: right;
+    width: 34%;
+}
+#donor, #real-id{
+    display: inline-block;
 }
 #donor{
     color: red;
@@ -61,6 +73,4 @@ h4{
     color: white;
     background-color: rgb(213, 213, 22);
     border-radius: 50px;
-    margin-left: 525px;
-    align-items: right;
 }
