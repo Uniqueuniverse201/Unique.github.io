@@ -63,12 +63,16 @@ img{
 b{
     background-color: rgba(170, 195, 204, 0.77);
     font-size: 38px;
-    margin-left: 500px;
+    display: grid;
+    text-align: center;
+    margin-right: 752px;
+    margin-left: 725px;
+    border-radius: 10px;
 }
 p{
     background-color: rgba(170, 195, 204, 0.77);
     border-radius: 10px;
-    flex-direction: column;
+    flex-direction: flex;
 }
 a{
     text-decoration: none;
