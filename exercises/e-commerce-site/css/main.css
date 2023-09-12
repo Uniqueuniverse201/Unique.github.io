@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header{
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    border-bottom: 1px solid gray;
+    background-color: black;
+}
+#header a{
+    display: inline-block;
+    padding: 24px;
+}
+#header a:hover{
+    background: linear-gradient(orange, rgb(207, 207, 28));
+}
+#header #logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+.dropdown-container{
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        opacity 0.25s,
+        visibilty 0.25s;
+}
+.dropdown-container:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-container:last-child .dropdown{
+    right: 0px;
+}
+.dropdown a{
+    background: linear-gradient(orange, rgb(242, 242, 97));
+    width: 100%;
+    min-width: 200px;
+}
+#header .dropdown a:hover{
+    background-color: darkslateblue;
+}
+/* Upper Navbar */
+#logo{
+    text-decoration: none;
+    color: white;
+}
+#upper-navbar{
+    display: flex;
+}
+#upper-navbar a{
+    text-decoration: none;
+    color: white;
+}
+/* Lower Navbar */
+#lower-navbar{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#lower-navbar a{
+    text-decoration: none;
+    color: white;
+}
+/* Search Bar */
+#search-bar{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 24px;
+    border: 3px solid rgb(252, 209, 51);
+    background-color: white;
+    border-radius: 48px;
+    padding: 18px 24px;
+    font-size: 18px;
+}
+span{
+    opacity: 50%;
+}
+/* Layout Hero */
+#hero{
+    background-image: url(../images/halloween.jpg);
+    background-size: cover;
+    background-position: center 50px, bottom 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px 96px;
+    display: flex;
+}
+#hero-content h1, h3{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#hero-content h1 {
+    font-size: 48px;
+}
+#hero-content h3{
+    font-size: 32px;
+}
+#hero-content a{
+    background-color: #FEFEFE;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    padding: 12px 24px;
+    border-radius: 48px;
+    border: 3px solid rgb(252, 209, 51);
+    box-shadow: 0px 4px 8px #00000066;
+}
