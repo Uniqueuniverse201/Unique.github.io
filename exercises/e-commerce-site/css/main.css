@@ -116,7 +116,9 @@ span{
     background-color: #FEFEFE;
     color: black;
     text-decoration: none;
-    display: inline-block;
+    display: grid;
+    text-align: center;
+    align-items: center;
     font-size: 28px;
     padding: 12px 24px;
     border-radius: 48px;
