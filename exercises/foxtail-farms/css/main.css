@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: white;
+    font-family: sans-serif;
+}
+#header{
+    position: sticky;
+    width: 100vw;
+    top: 0px;
+    background: linear-gradient(50deg, rgb(241, 244, 50), rgb(255, 174, 0));
+}
+#header a{
+    display: inline-block;
+    padding: 24px;
+}
+#header #logo{
+    margin-right: auto;
+}
+/* Upper Navbar */
+#upper-navbar{
+    display: flex;
+    align-items: center;
+}
+#upper-navbar img{
+    width: 150px;
+}
+#upper-navbar #logo{
+    margin-right: auto;
+}
+#upper-navbar a{
+    text-decoration: none;
+    color: white;
+}
+/* Search Bar */
+#search-bar{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 8px;
+    border: 3px solid rgb(252, 209, 51);
+    background-color: white;
+    border-radius: 48px;
+    padding: 18px 24px;
+    font-size: 18px;
+}
+span{
+    opacity: 50%;
+}
+/* Lower Navbar */
+#lower-navbar{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+#lower-navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+}
+.dropdown-container{
+    position: relative;
+}
+/* Layout Hero */
+#hero{
+    background-image: url(../images/farm-market.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    display: flex;
+}
+#hero-content h1{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#hero-content h3{
+    color: white;
+}
+/* Market Layout */
+.market-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 24px;
+}
+.section img{
+   width: 250px;
+   justify-content: space-between;
+   align-items: center;
+}
+/* Footer */
+#footer{
+    background: black;
+    text-align: center;
+    padding: 12px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
