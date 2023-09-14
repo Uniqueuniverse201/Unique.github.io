@@ -4,7 +4,7 @@
 body{
     margin: 0px;
     background-color: white;
-    font-family: sans-serif;
+    font-family: lobster;
 }
 #header{
     position: sticky;
@@ -58,7 +58,7 @@ span{
 }
 #lower-navbar a{
     text-decoration: none;
-    color: white;
+    color:black;
     font-size: 24px;
     align-items: center;
 }
@@ -79,9 +79,11 @@ span{
     color: white;
     text-align: center;
     align-items: center;
+    font-size: 48px;
 }
 #hero-content h3{
     color: white;
+    font-size: 24px;
 }
 /* Market Layout */
 .market-grid{
@@ -89,6 +91,9 @@ span{
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     padding: 24px;
+}
+.market-grid h3{
+    font-family: sans-serif;
 }
 .section img{
    width: 250px;
@@ -100,8 +105,11 @@ span{
     background: black;
     text-align: center;
     padding: 12px;
+    height: 30vh;
 }
 #footer a{
     text-decoration: none;
     color: white;
+    font-size: 24px;
+    padding: 12px;
 }
