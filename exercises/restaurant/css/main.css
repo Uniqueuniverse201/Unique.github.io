@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/* Navbar */
+#header{
+    width: 100vw;
+    border-bottom: 5px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-button{
+    background-color: black;
+    border-radius: 50px;
+}
+#header .cta-button{
+    color: white;
+}
+#header a{
+    text-decoration: none;
+    color: purple;
+    padding: 24px;
+    align-items: center;
+    font-family: a Abstract Groovy;
+    font-size: 18px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+img{
+    display: flex;
+    width: 100px;
+    align-items: center;
+}
+#header #logo{
+    margin-right: auto;
+}
+/* Layout */
+#layout a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Aladin;
+}
+#hero-1{
+    background-image: url(../images/drink.jpg);
+    background-size: cover;
+    background-position: right center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50vh;
+    padding-right: 100px;
+}
+#hero-1 h1{
+    color: white;
+    font-family: a Abstract Groovy;
+}
+#hero-2{
+    background-image: url(../images/coffeeheart.jpg);
+    background-size: cover;
+    background-position: center left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+    padding-left: 80px;
+}
+#hero-2 h2{
+    color: white;
+    font-family: a Abstract Groovy;
+}
+#hero-3{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+    height: 50vh;
+}
+#hero-3 h2{
+    color: white;
+    font-family: a Abstract Groovy;
+}
