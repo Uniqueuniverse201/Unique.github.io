@@ -4,6 +4,11 @@
 body{
     margin: 0px;
 }
+#spacer{
+    background-color: rgba(194, 175, 202, 0.839);
+    width: 100vw;
+    height: 50px;
+}
 /* Navbar */
 #header{
     width: 100vw;
@@ -133,4 +138,59 @@ img{
     text-decoration: none;
     color: white;
 }
-/* Menu Page */
+/* Menu Page - Sidebar */
+#sidebar{
+    width: 250px;
+    padding: 24px;
+    justify-content: space-between;
+    border-right: 4px solid purple;
+}
+#sidebar ul{
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 150px;
+    padding: 0px;
+}
+#sidebar a{
+    font-size: 32px;
+    text-decoration: none;
+    font-family: a Abstract Groovy;
+    color: purple;
+    padding: 4px 0px;
+}
+/* Menu Page - Main Layout */
+.food{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+}
+#layout-menu{
+    width: 100vw;
+    display: flex;
+}
+#layout-menu img{
+    background-color: rgba(202, 9, 202, 0.797);
+    width: 225px;
+    border-radius: 50%;
+    padding: 18px;
+    align-items: center;
+}
+#menu{
+    display: grid;
+    flex: 2;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+#menu h2{
+    font-family: a Abstract Groovy;
+    color: purple;
+}
+#menu h4{
+    font-family: Aladin;
+    font-size: 24px;
+}
