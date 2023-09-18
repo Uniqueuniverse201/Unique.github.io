@@ -13,8 +13,9 @@ body{
     align-items: center;
 }
 .cta-button{
-    background-color: black;
-    border-radius: 50px;
+    background-color: purple;
+    border-radius: 24px;
+    border-radius: 50%;
 }
 #header .cta-button{
     color: white;
@@ -25,7 +26,7 @@ body{
     padding: 24px;
     align-items: center;
     font-family: a Abstract Groovy;
-    font-size: 18px;
+    font-size: 24px;
 }
 #navbar{
     display: flex;
@@ -35,17 +36,24 @@ body{
 }
 img{
     display: flex;
-    width: 100px;
+    width: 150px;
     align-items: center;
 }
 #header #logo{
     margin-right: auto;
 }
 /* Layout */
+#layout{
+    width: 100vw;
+}
 #layout a{
     text-decoration: none;
-    font-size: 24px;
+    font-size: 28px;
     font-family: Aladin;
+    color: white;
+    background-color: purple;
+    border-radius: 50%;
+    padding: 24px;
 }
 #hero-1{
     background-image: url(../images/drink.jpg);
@@ -61,6 +69,12 @@ img{
 #hero-1 h1{
     color: white;
     font-family: a Abstract Groovy;
+    font-size: 32px;
+}
+#hero-1 h4{
+    font-family: Aladin;
+    font-size: 32px;
+    color: white;
 }
 #hero-2{
     background-image: url(../images/coffeeheart.jpg);
@@ -76,6 +90,12 @@ img{
 #hero-2 h2{
     color: white;
     font-family: a Abstract Groovy;
+    font-size: 38px;
+}
+#hero-2 h4{
+    font-family: Aladin;
+    font-size: 32px;
+    color: white;
 }
 #hero-3{
     background-image: url(../images/background.jpg);
@@ -91,4 +111,26 @@ img{
 #hero-3 h2{
     color: white;
     font-family: a Abstract Groovy;
+    font-size: 32px;
 }
+/* Footer */
+#footer{
+    background-color: purple;
+    font-family: a Abstract Groovy;
+    padding: 12px;
+    width: 100vw;
+}
+#footer-navbar{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-navbar span{
+    color: white;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+/* Menu Page */
