@@ -192,5 +192,40 @@ img{
 }
 #menu h4{
     font-family: Aladin;
-    font-size: 24px;
+    font-size: 28px;
+}
+/* Media Screening */
+@media screen and (max-width: 725px){
+    #header{
+        background-color: orange;
+        align-items: center;
+        text-align: center;
+    }
+    #header img{
+        width: 75px;
+    }
+    #header a{
+        font-size: 1.15rem;
+    }
+    #header .cta-button{
+        padding: 15px;
+    }
+    #layout #hero-1{
+        align-items: center;
+        text-align: center;
+    }
+    #layout h2{
+        text-align: center;
+    }
+    #footer #footer-navbar{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
+    #menu{
+        display: flex;
+        flex-direction: column;
+    }
 }
