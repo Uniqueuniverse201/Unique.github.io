@@ -29,6 +29,21 @@ body{
 #navbar a{
     font-weight: bold;
 }
+
+/* Footer */
+#footer{
+    background: black;
+    text-align: center;
+    padding: 12px;
+    height: 30vh;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+}
+
 /* Home Page */
 #hero-home-1{
     background-image: url(../images/3ds-diamond.jpg);
@@ -68,6 +83,90 @@ h3{
 #hero-home-1 h1{
     color: white;
     font-size: 48px;
+}
+
+/* Gallery Page */
+body{
+    margin: 0px;
+}
+#gallery-hero-page{
+    background-image: url(../images/universe.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: top right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gallery-hero-page h1{
+    color: white;
+    font-size: 48px;
+}
+.body-text{
+    text-align: center;
+}
+.body-text a{
+    text-decoration: none;
+}
+#landscape-layout-1{
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+.landscape-gallery-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 24px;
+    padding-top: 10px;
+    background-color: white;
+    border: 6px solid purple;
+}
+.landscape-gallery-1 h3{
+    align-items: top center;
+}
+.landscape-gallery-1 img{
+    width: 100%;
+}
+
+/* About Me Page */
+#about-me img{
+    width: 250px;
+    border-radius: 24px;
+}
+#about-hero{
+    background-image: url(../images/about-me.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-hero h1{
+    color: white;
+    font-size: 48px;
+}
+#about-me{
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+/*  About Me Main Content */
+#about-hero-2{
+    background-image: url(../images/uni.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+#main-content p{
+    display: flex;
+}
+#main-content a{
+    text-decoration: none;
 }
 /* Media Screen Section Tablet */
 @media screen and (max-width: 1024px) and (min-width:520px ){
