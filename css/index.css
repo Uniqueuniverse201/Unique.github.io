@@ -91,6 +91,11 @@ h3{
 body{
     margin: 0px;
 }
+#container{
+    background-image: url(../images/uni.jpg);
+    margin: 0px auto;
+    padding: 12px 12px;
+}
 #gallery-hero-page{
     background-image: url(../images/universe.jpg);
     height: 50vh;
