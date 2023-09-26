@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-image: url(../images/concrete-texture.jpg);
+}
+#container{
+    background-color: gray;
+}
+.single-column{
+    width: 50vw;
+    min-width: 500px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+#single-column{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* Football Logos */
+#detroit-lions img{
+    width: 25vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#panthers img{
+    width: 25vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* Middle Container */
+#detroit-lions, #panthers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+}
+/* Bottome Container */
+#button-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+#button-layout a{
+    text-decoration: none;
+}
