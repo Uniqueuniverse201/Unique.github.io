@@ -189,23 +189,63 @@ h3{
 #main-content a{
     text-decoration: none;
 }
+/* Contact Page */
+#contact-hero{
+    background-image: url(../images/contactme-universe.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#contact-hero h1{
+    color: white;
+    font-size: 48px;
+}
 
 /* Media Screen Section Tablet */
 @media screen and (max-width: 1024px) and (min-width:520px ){
+    #navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #navbar a{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    #logo{
+        margin-left: auto;
+        flex: 100%;
+    }
+    /* Home Page */
     .landscape-home-page{
         grid-template-areas: repeat(3, 1fr);
         grid-template-areas:
             "image-home-1 image-home-2 image-home-3"
         ;    
     }
-    #h1{
-        flex-direction: column;
-        font-size: 32px;
+    #hero-home-1{
         align-items: center;
+        text-align: center;
+    }
+    #hero-home-1 h1{
+        font-size: px;
+        text-align: center;
+    }
+    #footer{
+        justify-content: center;
+    }
+    #footer a{
+        font-size: 24px;
     }
 }
 /* Media Screen Section Phone */
-@media screen and (max-width: 519px) and (min-width:420px){
+@media screen and (max-width: 520px){
+    #navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* Home Page */
     .landscape-home-page{
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -214,9 +254,15 @@ h3{
             "image-home-3"
         ;    
     }
-    h1{
+    #hero-home-1 h1{
+        font-size: 32px;
+    }
+    /* Gallery Page */
+    #landscape-layout-1{
         flex-direction: column;
-        font-size: 24px;
-        align-items: center;
+    }
+    /* Footer */
+    #footer{
+        flex-direction: column;
     }
 }

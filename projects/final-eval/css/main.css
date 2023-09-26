@@ -7,6 +7,7 @@ body{
 }
 #container{
     background-color: gray;
+    background-size: 50vh;
 }
 .single-column{
     width: 50vw;
@@ -28,12 +29,14 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
+    background-color: rgb(102, 102, 102);
 }
 #panthers img{
     width: 25vh;
     display: flex;
     align-items: center;
     text-align: center;
+    background-color: rgb(102, 102, 102);
 }
 /* Middle Container */
 #detroit-lions, #panthers{
