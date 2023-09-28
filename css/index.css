@@ -45,7 +45,7 @@ h1{
 #footer a{
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     justify-content: space-between;
     padding: 12px;
     font-family: sans-serif;
@@ -58,9 +58,13 @@ h1{
 /* Home Page */
 #container h3{
     color: white;
+    font-weight: bold;
+}
+#container h3 a{
+    text-decoration: none;
 }
 #hero-home-1{
-    background-image: url(../images/3ds-diamond.jpg);
+    background-image: url(../images/home-page-universe.jpg);
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -97,6 +101,12 @@ h3{
 #hero-home-1 h1{
     color: white;
     font-size: 48px;
+}
+#hero-home-1 h2{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
 }
 
 /* Gallery Page */
@@ -301,7 +311,7 @@ h3{
         justify-content: center;
     }
     #footer a{
-        font-size: 24px;
+        font-size: 16px;
     }
 }
 /* Media Screen Section Phone */
@@ -344,5 +354,8 @@ h3{
     /* Footer */
     #footer{
         flex-direction: column;
+    }
+    #footer a{
+        font-size: 16px;
     }
 }
