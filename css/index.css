@@ -113,8 +113,7 @@ h3{
 /* Gallery Page */
 #container{
     background-image: url(../images/uni.jpg);
-    margin: 0px auto;
-    padding: 12px 12px;
+    padding-bottom: 24px;
 }
 #gallery-hero-page{
     background-image: url(../images/universe.jpg);
@@ -134,22 +133,18 @@ h3{
 }
 .body-text h3{
     color: white;
+    margin: 0px;
 }
 .body-text a{
     text-decoration: none;
 }
 #landscape-layout-1{
-    max-width: 1200px;
-    width: 100vw;
-    margin: 40px auto;
     text-align: center;
 }
 .gallery{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    padding: 24px;
-    padding-top: 10px;
+    gap: 10px;
     background: linear-gradient(to top, brown, purple);
     border: 5px solid purple;
     border-radius: 24px;
@@ -159,7 +154,6 @@ h3{
     font-family: sans-serif;
 }
 #landscape-layout-1 h3{
-    align-items: top center;
     font-family: sans-serif;
 }
 .gallery img{
@@ -172,8 +166,8 @@ h3{
 /* About Me Page */
 .container{
     margin: 0px auto;
-    padding: 12px 0px;
-    width: 50vw;
+    width: 80vw;
+    max-width: 1280px;
 }
 #main{
     background-image: url(../images/uni.jpg);
@@ -320,7 +314,6 @@ h3{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95vw;
     }
     /* Contact Page */
     #contact-hero h1{
