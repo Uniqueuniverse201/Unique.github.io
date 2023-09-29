@@ -87,6 +87,7 @@ h3{
     width: 100%;
     height: 90%;
     padding: 18px;
+    object-fit: cover;
     border-radius: 34px;
 }
 #image-home-1{
@@ -138,7 +139,7 @@ h3{
     text-decoration: none;
 }
 #landscape-layout-1{
-    max-width: 800px;
+    max-width: 1200px;
     width: 100vw;
     margin: 40px auto;
     text-align: center;
@@ -157,8 +158,9 @@ h3{
     color: white;
     font-family: sans-serif;
 }
-.landscape-gallery-1 h3{
+#landscape-layout-1 h3{
     align-items: top center;
+    font-family: sans-serif;
 }
 .gallery img{
     display: block;
@@ -315,6 +317,8 @@ h3{
     }
     .gallery{
         justify-content: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         width: 95vw;
     }
@@ -341,6 +345,14 @@ h3{
         flex-wrap: wrap;
         justify-content: center;
     }
+    #navbar a{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    #logo{
+        margin-left: auto;
+        flex: 100%;
+    }
     /* Home Page */
     .landscape-home-page{
         grid-template-columns: 1fr;
@@ -359,23 +371,18 @@ h3{
         font-size: 32px;
         text-align: center;
     }
-    #landscape-gallery{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
     .card img{
         width: 100%;
     }
     .gallery{
+        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 92vw;
-    }
-    #landscape-layout-1{
         flex-direction: column;
+        width: 90%;
     }
+
     /* About Page */
     #about-hero h1{
         font-size: 32px;
