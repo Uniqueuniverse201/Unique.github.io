@@ -22,12 +22,13 @@ body{
 #navbar #logo{
     margin-right: auto;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 28px;
     padding-top: 13px;
     padding-bottom: 12px;
 }
 #navbar a{
     font-weight: bold;
+    font-size: 24px;
 }
 h1{
     font-family: sans-serif;
@@ -47,7 +48,7 @@ h1{
     color: white;
     font-size: 20px;
     justify-content: space-between;
-    padding: 12px;
+    padding: 18px;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -101,19 +102,21 @@ h3{
 }
 #hero-home-1 h1{
     color: white;
-    font-size: 48px;
+    font-size: 52px;
 }
 #hero-home-1 h2{
     text-align: center;
     align-items: center;
     color: white;
     font-family: sans-serif;
+    font-size: 32px;
 }
 
 /* Gallery Page */
 #container{
     background-image: url(../images/uni.jpg);
     padding-bottom: 24px;
+    padding-top: 24px;
 }
 #gallery-hero-page{
     background-image: url(../images/universe.jpg);
@@ -159,6 +162,7 @@ h3{
 .gallery img{
     display: block;
     width: 100%;
+    border-radius: 20px;
     height: 275px;
     object-fit: cover;
 }
