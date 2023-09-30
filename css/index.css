@@ -214,6 +214,7 @@ h3{
 #image-container img{
     width: 100%;
     border-radius: 24px;
+    align-items: center;
 }
 #main-content h2{
     color: white;
@@ -223,6 +224,7 @@ h3{
 }
 #main-content a{
     text-decoration: none;
+    margin-bottom: 12px;
     color: red;
 }
 /* Contact Page */
@@ -258,6 +260,7 @@ h3{
 }
 #main-contact p{
     color: white;
+    text-align: center;
 }
 #main-contact a{
     text-decoration: none;
