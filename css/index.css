@@ -63,6 +63,7 @@ h1{
 }
 #container h3 a{
     text-decoration: none;
+    color: white;
 }
 #hero-home-1{
     background-image: url(../images/home-page-universe.jpg);
@@ -140,6 +141,7 @@ h3{
 }
 .body-text a{
     text-decoration: none;
+    color: white;
 }
 #landscape-layout-1{
     text-align: center;
@@ -229,7 +231,7 @@ h3{
 #main-content a{
     text-decoration: none;
     margin-bottom: 12px;
-    color: red;
+    color: white;
 }
 /* Contact Page */
 #contact-hero{
